@@ -16,6 +16,7 @@ class TicTacToe
     
   ]
   
+  
   def display_board
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
     puts "-----------"
@@ -23,6 +24,7 @@ class TicTacToe
     puts "-----------"
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
+  
   
   def input_to_index(user_input)
     user_input.to_i - 1
@@ -32,6 +34,7 @@ class TicTacToe
   def move(index, token="X")
     @board[index] = token
   end
+  
   
   def position_taken?(index)
     if @board[index] == " " || @board[index] == ""
