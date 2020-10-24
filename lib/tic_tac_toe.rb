@@ -152,7 +152,6 @@ class TicTacToe
       play
     end
     if won?
-      winner = winner
       puts "Congratulations #{winner}!"
     end
     if draw?
