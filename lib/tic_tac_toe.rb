@@ -146,8 +146,8 @@ class TicTacToe
   
   
   
-  def play(board)
-    if !over?(board)
+  def play
+    if !over?
       turn(board)
       play(board)
     end
