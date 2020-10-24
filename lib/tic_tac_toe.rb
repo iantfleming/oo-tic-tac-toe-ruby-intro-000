@@ -54,6 +54,10 @@ class TicTacToe
   end
   
   
+  
+  
+  
+  
   def current_player(board)
     num = turn_count(board)
     if num % 2 == 0
@@ -62,7 +66,6 @@ class TicTacToe
       return "O"
     end
   end
-  
   
   
   def turn
