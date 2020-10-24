@@ -148,8 +148,8 @@ class TicTacToe
   
   def play
     if !over?
-      turn(board)
-      play(board)
+      turn
+      play
     end
     if won?(board)
       winner = winner(board)
