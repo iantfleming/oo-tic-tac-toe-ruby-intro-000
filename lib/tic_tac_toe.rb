@@ -1,5 +1,5 @@
 class TictacToe
-  def initialize
+  def initialize(board)
     @board = 
   end
 
