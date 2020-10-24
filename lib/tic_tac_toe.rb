@@ -108,7 +108,7 @@ class TicTacToe
   return false
 
   
-  def full?(board)
+  def full?
     board.all? do |i|
       i == "X" || i == "O"
     end
