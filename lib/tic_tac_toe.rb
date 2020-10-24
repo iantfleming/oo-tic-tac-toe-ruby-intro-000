@@ -134,14 +134,14 @@ class TicTacToe
     index = []
     index = won?(board)
     if index == false
-    return nil
-  else
-    if board[index[0]] == "X"
-      return "X"
+      return nil
     else
-      return "O"
+      if board[index[0]] == "X"
+        return "X"
+      else
+        return "O"
+      end
     end
   end
-end
 
 end
