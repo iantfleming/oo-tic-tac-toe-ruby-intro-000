@@ -106,7 +106,6 @@ class TicTacToe
     end
   end
   return false
-end
   
   
   def full?(board)
