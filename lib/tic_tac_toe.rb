@@ -155,7 +155,7 @@ class TicTacToe
       winner = winner
       puts "Congratulations #{winner}!"
     end
-    if draw?(board)
+    if draw?
       puts "Cat's Game!"
     end
   end
